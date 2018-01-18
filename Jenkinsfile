@@ -1,7 +1,7 @@
 pipeline {
   agent {
     docker {
-      image 'rb-dtr.de.bosch.com/st-co/st-co_experiments:java-7'
+      image 'st-co_experiments:java-7'
     }
     
   }
