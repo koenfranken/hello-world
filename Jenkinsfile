@@ -1,7 +1,7 @@
 pipeline {
   agent {
     docker {
-      image 'java:7'
+      image 'java:8'
     }
     
   }
